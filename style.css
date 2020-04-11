@@ -1,6 +1,24 @@
 .container1 {
   background-image: url('images/bg-hero-desktop.svg');
 }
+.btn {
+  border-radius: 20px;
+}
+.btn-pink {
+  color: #fff;
+  background-color: #ff52bf;
+}
+.btn-top {
+  background-color: #fff;
+  width: 150px;
+}
+.btn-middle {
+  width: 200px;
+}
+.btn-bottom {
+  height: 42px;
+  width: 250px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
