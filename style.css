@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
 .container1 {
   background-image: url('images/bg-hero-desktop.svg');
 }
@@ -7,6 +11,9 @@
 .btn-pink {
   color: #fff;
   background-color: #ff52bf;
+}
+.tif-button {
+  text-align: right;
 }
 .btn-top {
   background-color: #fff;
@@ -24,5 +31,5 @@
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
