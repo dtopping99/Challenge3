@@ -3,9 +3,30 @@ body {
   font-size: 18px;
 }
 .container1 {
+  padding: 5%;
   background-image: url('images/bg-hero-desktop.svg');
 }
+.first-row {
+  padding: 1% 0 5% 0;
+}
+.logo {
+  width: 100px;
+  height: 15px;
+}
+.main-heading {
+  padding-top: 10%;
+  font-weight: 700;
+  font-size: 32px;
+}
+.sub-heading {
+  font-size: 16px;
+}
+.mockups-image {
+  width: 400px;
+  height: 300px;
+}
 .btn {
+  font-size: 12px;
   border-radius: 20px;
 }
 .btn-pink {
@@ -16,11 +37,14 @@ body {
   text-align: right;
 }
 .btn-top {
+  border-style: solid;
+  border-color: #f0f0f0;
   background-color: #fff;
   width: 150px;
 }
 .btn-middle {
-  width: 200px;
+  margin-top: 5%;
+  width: 180px;
 }
 .btn-bottom {
   height: 42px;
