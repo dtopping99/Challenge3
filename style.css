@@ -3,6 +3,9 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
+.row {
+  margin: 0;
+}
 .container1 {
   padding: 5%;
   background-image: url('images/bg-hero-desktop.svg');
@@ -12,7 +15,7 @@ body {
 }
 .logo {
   width: 100px;
-  height: 15px;
+  height: 17px;
 }
 .main-heading {
   padding-top: 10%;
@@ -27,7 +30,7 @@ body {
   height: 300px;
 }
 .btn {
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 20px;
 }
 .btn-pink {
@@ -43,11 +46,11 @@ body {
   background-color: #fff;
   width: 150px;
 }
+.btn-middle {
+  margin-top: 5%;
+  width: 180px;
+}
 .sub-container2 {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #f0f0f0;
-  border-radius: 10px;
   margin: 0 7%;
   padding: 20px 0 20px 20px;
 }
@@ -67,13 +70,45 @@ body {
   width: 300px;
   height: 230px;
 }
-.btn-middle {
-  margin-top: 5%;
-  width: 180px;
+.sub-container2, .container3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f0f0f0;
+  border-radius: 10px;
+}
+.container3 {
+  position: absolute;
+  background-color: #fff;
+  padding: 25px 0;
+  margin: 80px 0 0 230px;
+  width: 500px;
+  height: 150px;
+  text-align: center;
+}
+.bottom-heading {
+  font-size: 22px;
+  font-weight: 700;
 }
 .btn-bottom {
+  width: 200px;
+}
+.container4 {
+  margin-top: 190px;
+  padding: 100px 10px 20px 25px;
+  height: 400px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #00252e;
+}
+.white-logo {
+  width: 170px;
   height: 42px;
-  width: 250px;
+}
+.description {
+  padding-right: 60px;
+}
+.copyright {
+  font-size: 9px;
 }
 .attribution {
   font-size: 11px;
